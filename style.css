@@ -1,0 +1,96 @@
+/* body*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Flexbox  */
+.flex { display: flex; }
+.flex-direction-column {flex-direction: column;}
+.flex-justify-center { justify-content: center; }
+.flex-align-center { align-items: center; }
+.flex-justify-between { justify-content: space-between; }
+.flex-justify-around { justify-content: space-around; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-center { justify-content: center; }
+.flex-justify-end { justify-content: flex-end; }
+
+.title{
+    display: flex;
+    justify-content: center
+}
+h1{
+    font-size: 5vh;
+    color: white;
+}
+
+.section{
+    /*svg background images/dragon-scales.svg*/
+    /* background-image: url("https://images.pexels.com/photos/266526/pexels-photo-266526.jpeg?auto=compress&cs=tinysrgb&w=600");  */
+    /* filter: blur(3.5); */
+    /* background-image: url("https://images.pexels.com/photos/2526105/pexels-photo-2526105.jpeg?auto=compress&cs=tinysrgb&w=1200");  */
+    background-image: url("./back.svg"); 
+    /* filter: blur(3.5); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vh;
+    padding-bottom: 5vh;
+}
+
+/* main*/
+.bigBloc{
+    display: flex;
+    flex-direction: column;
+   
+}
+.text{
+    color: white;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+#timer{
+    
+    width: 50vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    margin-left: 7vh;
+}
+.bloc{
+    margin-left: 2,5vh;
+
+}
+.card {
+    color: white;
+    height: 20vh;
+    width: 15vh;
+    font-size: 10vh;
+    border: solid;
+    border-radius: 2vh;
+    margin-left: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+span{
+    color: white;
+    font-size: 3vh;
+    margin-left: 10vh;
+}
+footer{
+    background-color: black;
+    width: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
